@@ -1,0 +1,59 @@
+body {
+    background-image: url("../images/watercolor-1325656_1920.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.navbar {
+  background-color: #283044 !important;
+  position: fixed;
+  width: 100%;
+  background-size: cover;
+  z-index: 10;
+}
+
+
+.geo-facts {
+  font-family: 'Dosis', sans-serif;
+}
+
+
+
+path:hover, path:focus {
+    fill: rgba(0, 0, 0, 0.343);
+    
+  }
+  
+  .container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  
+  .world-map {
+    margin: 5px;
+    position: relative;
+    text-align: center;
+    height: 300px;
+    /* border: solid 2px red; */
+  }
+
+.btn {
+    width: 30px;
+    height: 30px;
+    color: #005bac;
+    position: fixed;
+    
+  }
+  
+  .zoom {
+    bottom: 190px;
+  }
+  
+  .zoom-out {
+    bottom: 120px;
+  }
+  .zoom-init {
+    bottom: 50px;
+  }
+  
